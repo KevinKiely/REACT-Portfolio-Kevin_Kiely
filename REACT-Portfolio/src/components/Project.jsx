@@ -28,10 +28,10 @@ export default function Project () {
     
 
     return(
-        <>
-        <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+        <div className="bg-dark text-white">
+         <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
         <main> {renderPage()}</main>
-        </>
+        </div>
     );
     
 
